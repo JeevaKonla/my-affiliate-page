@@ -1,23 +1,56 @@
-[
-  {
-    "title": "Wireless Headphones",
-    "category": "deals",
-    "image": "https://via.placeholder.com/200",
-    "price": "$49.99",
-    "link": "https://www.amazon.in/dp/YOURASIN1?tag=YOURTAG"
-  },
-  {
-    "title": "Gaming Mouse",
-    "category": "new",
-    "image": "https://via.placeholder.com/200",
-    "price": "$29.99",
-    "link": "https://www.amazon.in/dp/YOURASIN2?tag=YOURTAG"
-  },
-  {
-    "title": "Bluetooth Speaker",
-    "category": "editors",
-    "image": "https://via.placeholder.com/200",
-    "price": "$39.99",
-    "link": "https://www.amazon.in/dp/YOURASIN3?tag=YOURTAG"
-  }
-]
+{
+    "topDeals": [
+        {
+            "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+            "price": 89.99,
+            "image": "images/product1.jpg",
+            "link": "https://www.amazon.com/Instant-Pot-Duo-Electric-Stainless/dp/B01B1VC13K/?tag=yourtag-21"
+        },
+        {
+            "title": "Echo Dot (4th Gen) with Alexa | Smart speaker",
+            "price": 49.99,
+            "image": "images/product2.jpg",
+            "link": "https://www.amazon.com/Echo-Dot/dp/B07XJ8C8F5/?tag=yourtag-21"
+        },
+        {
+            "title": "Apple AirPods Pro (2nd Generation)",
+            "price": 249.00,
+            "image": "images/product3.jpg",
+            "link": "https://www.amazon.com/Apple-AirPods-Pro-2nd-Generation/dp/B0CHWYKQ1D/?tag=yourtag-21"
+        },
+        {
+            "title": "Kindle Paperwhite (8 GB) – Now with a 6.8\" display",
+            "price": 139.99,
+            "image": "images/product4.jpg",
+            "link": "https://www.amazon.com/Kindle-Paperwhite-8GB/dp/B09HM1VD8M/?tag=yourtag-21"
+        }
+    ],
+    "newArrivals": [
+        {
+            "title": "Sony WH-1000XM5 Wireless Premium Noise Canceling Headphones",
+            "price": 399.99,
+            "image": "images/product1.jpg",
+            "link": "https://www.amazon.com/Sony-WH-1000XM5-Canceling-Headphones-Hands-Free/dp/B09XS7JWHH/?tag=yourtag-21"
+        },
+        {
+            "title": "Samsung Galaxy Tab S9 Ultra 14.6\" 512GB Android Tablet",
+            "price": 1199.99,
+            "image": "images/product2.jpg",
+            "link": "https://www.amazon.com/Samsung-Galaxy-Tab-Ultra-Graphite/dp/B0C6YQ5YFJ/?tag=yourtag-21"
+        }
+    ],
+    "editorsPicks": [
+        {
+            "title": "Dyson V15 Detect Absolute Cordless Vacuum Cleaner",
+            "price": 699.99,
+            "image": "images/product3.jpg",
+            "link": "https://www.amazon.com/Dyson-Detect-Absolute-Lightweight-Cordless/dp/B09SVW2KX5/?tag=yourtag-21"
+        },
+        {
+            "title": "Ninja Foodi 8-in-1 Digital Air Fry Oven",
+            "price": 199.99,
+            "image": "images/product4.jpg",
+            "link": "https://www.amazon.com/Ninja-Foodi-Digital-Air-Fryer/dp/B08Y5KXBKY/?tag=yourtag-21"
+        }
+    ]
+}
