@@ -1,14 +1,23 @@
 [
   {
     "title": "Wireless Headphones",
+    "category": "deals",
     "image": "https://via.placeholder.com/200",
     "price": "$49.99",
-    "link": "https://www.amazon.in/dp/YOURASIN?tag=YOURTAG"
+    "link": "https://www.amazon.in/dp/YOURASIN1?tag=YOURTAG"
   },
   {
     "title": "Gaming Mouse",
+    "category": "new",
     "image": "https://via.placeholder.com/200",
     "price": "$29.99",
-    "link": "https://www.amazon.in/dp/YOURASIN?tag=YOURTAG"
+    "link": "https://www.amazon.in/dp/YOURASIN2?tag=YOURTAG"
+  },
+  {
+    "title": "Bluetooth Speaker",
+    "category": "editors",
+    "image": "https://via.placeholder.com/200",
+    "price": "$39.99",
+    "link": "https://www.amazon.in/dp/YOURASIN3?tag=YOURTAG"
   }
 ]
