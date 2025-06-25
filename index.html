@@ -1,63 +1,50 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mini Amazon Homepage</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Affiliate Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <main class="container">
+    <header>
+        <div class="logo">Amazon Affiliate</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Top Deals</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Editor's Picks</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <section class="hero-banner">
-      <img src="https://via.placeholder.com/1200x300?text=Budget+Friendly+Headphones" alt="Hero Banner" />
+        <img src="images/hero-banner.jpg" alt="Amazon products showcase">
     </section>
 
-    <section class="category-section">
-      <h2>Appliances for your home | Up to 55% off</h2>
-      <div class="category-grid">
-        <div class="mini-box">
-          <img src="https://via.placeholder.com/150x100?text=AC" />
-          <p>Air Conditioners</p>
-        </div>
-        <div class="mini-box">
-          <img src="https://via.placeholder.com/150x100?text=Fridge" />
-          <p>Refrigerators</p>
-        </div>
-        <div class="mini-box">
-          <img src="https://via.placeholder.com/150x100?text=Microwave" />
-          <p>Microwaves</p>
-        </div>
-        <div class="mini-box">
-          <img src="https://via.placeholder.com/150x100?text=Washer" />
-          <p>Washing Machines</p>
-        </div>
-      </div>
-      <a href="#" class="action-link">See more</a>
-    </section>
+    <main class="container">
+        <section class="section">
+            <h2>Top Deals</h2>
+            <div class="product-grid" id="top-deals"></div>
+        </section>
 
-    <section class="category-section">
-      <h2>Revamp your home in style</h2>
-      <div class="category-grid">
-        <div class="mini-box">
-          <img src="https://via.placeholder.com/150x100?text=Cushions" />
-          <p>Cushions & Bedsheets</p>
-        </div>
-        <div class="mini-box">
-          <img src="https://via.placeholder.com/150x100?text=Vases" />
-          <p>Vases & Figurines</p>
-        </div>
-        <div class="mini-box">
-          <img src="https://via.placeholder.com/150x100?text=Storage" />
-          <p>Home Storage</p>
-        </div>
-        <div class="mini-box">
-          <img src="https://via.placeholder.com/150x100?text=Lighting" />
-          <p>Lighting Solutions</p>
-        </div>
-      </div>
-      <a href="#" class="action-link">Explore all</a>
-    </section>
-  </main>
+        <section class="section">
+            <h2>New Arrivals</h2>
+            <div class="product-grid" id="new-arrivals"></div>
+        </section>
+
+        <section class="section">
+            <h2>Editor's Picks</h2>
+            <div class="product-grid" id="editors-picks"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Amazon Affiliate Store. All product links are affiliate links.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
