@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Wireless Headphones",
+    "image": "https://via.placeholder.com/200",
+    "price": "$49.99",
+    "link": "https://www.amazon.in/dp/YOURASIN?tag=YOURTAG"
+  },
+  {
+    "title": "Gaming Mouse",
+    "image": "https://via.placeholder.com/200",
+    "price": "$29.99",
+    "link": "https://www.amazon.in/dp/YOURASIN?tag=YOURTAG"
+  }
+]
