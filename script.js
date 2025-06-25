@@ -1,20 +1,29 @@
-// Fetch product data from products.json and display it in the correct section
-fetch("products.json")
-  .then(res => res.json())
-  .then(products => {
-    products.forEach(product => {
-      const section = document.getElementById(product.category);
-      if (section) {
-        const card = document.createElement("div");
-        card.className = "product";
-        card.innerHTML = `
-          <img src="${product.image}" alt="${product.title}" />
-          <h3>${product.title}</h3>
-          <p>${product.price}</p>
-          <a href="${product.link}" target="_blank">Buy on Amazon</a>
-        `;
-        section.appendChild(card);
-      }
-    });
-  })
-  .catch(error => console.error("Error loading products:", error));
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('products.json')
+        .then(response => response.json())
+        .then(data => {
+            // Load products into respective sections
+            loadProducts(data.topDeals, 'top-deals');
+            loadProducts(data.newArrivals, 'new-arrivals');
+            loadProducts(data.editorsPicks, 'editors-picks');
+        })
+        .catch(error => console.error('Error loading products:', error));
+});
+
+function loadProducts(products, sectionId) {
+    const section = document.getElementById(sectionId);
+    if (!section) return;
+
+    section.innerHTML = products.map(product => `
+        <div class="product-card">
+            <div class="product-image">
+                <img src="${product.image}" alt="${product.title}">
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">${product.title}</h3>
+                <div class="product-price">$${product.price}</div>
+                <a href="${product.link}" class="product-link" target="_blank">View on Amazon</a>
+            </div>
+        </div>
+    `).join('');
+}
